@@ -1,5 +1,5 @@
 # Install the dependencies : 
-    $ npm install #(the first time)
+    $ npm install # once
 
 # Run the program :
     $ node .
