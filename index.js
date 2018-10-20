@@ -26,7 +26,8 @@ if (index === 0) {
   file = JSON.stringify(o);
   fs.writeFile("./password.json", file, "utf8", err => {
     if (err) {
-      return !console.error(err);
+      console.error(err);
+      return;
     }
   });
 } else {
